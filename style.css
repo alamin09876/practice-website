@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
 }
 .healthy-one{
     display:flex;
@@ -7,8 +8,9 @@ body{
 }
 .healthy-item{
     width:50%;
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 80px;
+    margin-left: 170px;
+    margin-bottom: 50px;
 }
 .healthy-item h1{
     font-size:40px;
@@ -22,11 +24,12 @@ body{
 }
 .healthy-item a{
     text-decoration:none;
-    padding:8px 13px;
+    padding:8px 15px;
     border: 1px solid tomato;
     border-radius: 17px;
     background-color:#ff3c1a;
     color:white;
+    
     
 
 }
@@ -39,4 +42,48 @@ body{
 .healthy-item-one img{
     width:80%;
     margin-top: 20px;
+}
+.healthy-two{
+    display:flex;
+    width:100%;
+    background-image: url(img/7.png);
+    background-repeat: no-repeat;
+    
+
+}
+.healthy-item-two img{
+    width:50%;
+    margin-top: 100px;
+    margin-left: 200px;
+    height:400px;
+}
+.healthy-item-two-one{
+    width:50%;
+    margin-left: 200px;
+    
+}
+.healthy-item-two-one h1{
+    margin-top: 150px;
+}
+.healthy-item-two-one a{
+    text-decoration:none;
+    padding:8px 15px;
+    border: 1px solid tomato;
+    border-radius: 17px;
+    background-color:#ff3c1a;
+    color:white;
+}
+.healthy-item-two-one h1{
+    font-size:40px;
+    color: gray;
+}
+.healthy-item-two-one p{
+    font-size:20px;
+    margin-bottom: 30px;
+    color: gray;
+}
+.third-content{
+    text-align: center;
+    color: gray;
+    margin-top: 80px;
 }
